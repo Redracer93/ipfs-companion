@@ -7190,7 +7190,7 @@ iso-random-stream@^1.1.0, iso-random-stream@^1.1.1:
     buffer "^5.4.3"
     readable-stream "^3.4.0"
 
-iso-stream-http@0.1.2, "stream-http@npm:iso-stream-http@0.1.2":
+iso-stream-http@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/iso-stream-http/-/iso-stream-http-0.1.2.tgz#b3dfea4c9f23ff26d078d40c539cfc0dfebacd37"
   integrity sha512-oHEDNOysIMTNypbg2f1SlydqRBvjl4ZbSE9+0awVxnkx3K2stGTFwB/kpVqnB6UEfF8QD36kAjDwZvqyXBLMnQ==
@@ -11352,7 +11352,7 @@ readable-stream@^2.0.0, readable-stream@^2.0.6, readable-stream@^2.2.2, readable
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
-readable-stream@^3.0.0, readable-stream@^3.1.1, readable-stream@^3.4.0, readable-stream@^3.6.0, "stream@npm:readable-stream@3.6.0":
+readable-stream@^3.0.0, readable-stream@^3.1.1, readable-stream@^3.4.0, readable-stream@^3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.6.0.tgz#337bbda3adc0706bd3e024426a286d4b4b2c9198"
   integrity sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA==
@@ -12144,27 +12144,27 @@ socket.io-client@2.3.0:
     socket.io-parser "~4.0.3"
 
 socket.io-parser@~3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-3.3.0.tgz#2b52a96a509fdf31440ba40fed6094c7d4f1262f"
-  integrity sha512-hczmV6bDgdaEbVqhAeVMM/jfUfzuEZHsQg6eOmLgJht6G3mPKMxYm75w2+qhAQZ+4X+1+ATZ+QFKeOZD5riHng==
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-3.3.4.tgz#ab84236b6d06eaf1fb68b179b3a7501195886cc3"
+  integrity sha512-z/pFQB3x+EZldRRzORYW1vwVO8m/3ILkswtnpoeU6Ve3cbMWkmHEWDAVJn4QJtchiiFTo5j7UG2QvwxvaA9vow==
   dependencies:
-    component-emitter "1.2.1"
+    component-emitter "~1.3.0"
     debug "~3.1.0"
     isarray "2.0.1"
 
 socket.io-parser@~3.4.0:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-3.4.1.tgz#b06af838302975837eab2dc980037da24054d64a"
-  integrity sha512-11hMgzL+WCLWf1uFtHSNvliI++tcRUWdoeYuwIl+Axvwy9z2gQM+7nJyN3STj1tLj5JyIUH8/gpDGxzAlDdi0A==
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-3.4.3.tgz#b19bdaad38ed39fd68fba3f9d86768f667df0c29"
+  integrity sha512-1rE4dZN3kCI/E5wixd393hmbqa78vVpkKmnEJhLeWoS/C5hbFYAbcSfnWoaVH43u9ToUVtzKjguxEZq+1XZfCQ==
   dependencies:
     component-emitter "1.2.1"
     debug "~4.1.0"
     isarray "2.0.1"
 
 socket.io-parser@~4.0.3, socket.io-parser@~4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-4.0.4.tgz#9ea21b0d61508d18196ef04a2c6b9ab630f4c2b0"
-  integrity sha512-t+b0SS+IxG7Rxzda2EVvyBZbvFPBCjJoyHuE0P//7OAsN23GItzDRdWa6ALxZI/8R5ygK7jAR6t028/z+7295g==
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-4.0.5.tgz#cb404382c32324cc962f27f3a44058cf6e0552df"
+  integrity sha512-sNjbT9dX63nqUFIOv95tTVm6elyIU4RvB1m8dOeZt+IgWwcWklFDOdmGcfo3zSiRsnR/3pJkjY5lfoGqEe4Eig==
   dependencies:
     "@types/component-emitter" "^1.2.10"
     component-emitter "~1.3.0"
@@ -12363,6 +12363,15 @@ standard@16.0.3:
     eslint-plugin-react "~7.21.5"
     standard-engine "^14.0.1"
 
+"stream-http@npm:iso-stream-http@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/iso-stream-http/-/iso-stream-http-0.1.2.tgz#b3dfea4c9f23ff26d078d40c539cfc0dfebacd37"
+  integrity sha512-oHEDNOysIMTNypbg2f1SlydqRBvjl4ZbSE9+0awVxnkx3K2stGTFwB/kpVqnB6UEfF8QD36kAjDwZvqyXBLMnQ==
+  dependencies:
+    builtin-status-codes "^3.0.0"
+    inherits "^2.0.1"
+    readable-stream "^3.1.1"
+
 stream-to-array@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/stream-to-array/-/stream-to-array-2.3.0.tgz#bbf6b39f5f43ec30bc71babcb37557acecf34353"
@@ -12393,6 +12402,15 @@ stream-to-pull-stream@^1.7.2:
   dependencies:
     looper "^3.0.0"
     pull-stream "^3.2.3"
+
+"stream@npm:readable-stream@3.6.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.6.0.tgz#337bbda3adc0706bd3e024426a286d4b4b2c9198"
+  integrity sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA==
+  dependencies:
+    inherits "^2.0.3"
+    string_decoder "^1.1.1"
+    util-deprecate "^1.0.1"
 
 streaming-iterables@^5.0.2:
   version "5.0.2"
